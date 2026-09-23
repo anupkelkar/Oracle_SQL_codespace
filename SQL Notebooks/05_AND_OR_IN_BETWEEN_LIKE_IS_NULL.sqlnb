@@ -151,7 +151,7 @@ cells:
       FROM
          orders
       WHERE
-         status = 'Canceled');
+         status = 'Canceled')
       ORDER BY
          first_Name;
     languageId: oracle-sql
@@ -291,7 +291,7 @@ cells:
           last_name;
     languageId: oracle-sql
   - kind: 2
-    value: '%er'
+    value: "%er"
     languageId: oracle-sql
   - kind: 2
     value: |

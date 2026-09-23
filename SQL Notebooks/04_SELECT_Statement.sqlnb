@@ -1,10 +1,16 @@
 cells:
+  - kind: 1
+    value: "## Introduction to SELECT Statement"
+    languageId: markdown
+  - kind: 1
+    value: "## Introduction to SELECT Statement"
+    languageId: markdown
   - kind: 2
     value: |
       SELECT
       name
       FROM
-      custcmers;
+      customers;
     languageId: oracle-sql
   - kind: 2
     value: |
@@ -27,13 +33,6 @@ cells:
       customers;
     languageId: oracle-sql
   - kind: 2
-    value: |
-      SELECT
-      UPPER( 'This is a string')
-      From
-      what_table;
-    languageId: oracle-sql
-  - kind: 2
     value: SELECT * FROM dual;
     languageId: oracle-sql
   - kind: 2
@@ -46,7 +45,7 @@ cells:
   - kind: 2
     value: |
       SELECT
-      (10 + s)/2
+      (10 + 5)/2
       FROM
       dual;
     languageId: oracle-sql
@@ -179,20 +178,6 @@ cells:
          orders
       ORDER BY
           order_date DESC;
-    languageId: oracle-sql
-  - kind: 2
-    value: |
-      SELECT DISTINCT colunn_l
-      FROM table;
-    languageId: oracle-sql
-  - kind: 2
-    value: |
-      SELECT
-          DISTINCT column_1,
-      column_2,
-      column_3
-      FROM
-      table_name;
     languageId: oracle-sql
   - kind: 2
     value: |
